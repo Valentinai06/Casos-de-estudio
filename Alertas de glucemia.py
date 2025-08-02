@@ -1,14 +1,10 @@
-# Alertas de glucemia
-
-lecturas = [110, 95, 85, 70, 190]  # ejemplo de N lecturas
-N = len(lecturas)
-
-suma = sum(lecturas)
-promedio = suma / N
-
-if promedio > 180:
-    print("HIPERGLUCEMIA")
-elif promedio < 70:
-    print("HIPOGLUCEMIA")
-else:
-    print("NORMAL")
+Inicio
+Leer N valores de glucosa (mg/dL)
+Calcular el promedio de las lecturas
+Si el promedio es mayor a 180
+Mostrar “HIPERGLUCEMIA”
+Si no, si el promedio es menor a 70
+IMPRIMIR “HIPOGLUCEMIA”
+Si no
+IMPRIMIR “NORMAL”
+Fin
